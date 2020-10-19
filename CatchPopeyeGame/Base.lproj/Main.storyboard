@@ -1,24 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchPopeyeGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="vra-rv-7Yf">
+                                <rect key="frame" x="26" y="257" width="119" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="jLS-9g-87R"/>
+                                    <constraint firstAttribute="height" constant="128" id="kmN-Th-Wpq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="hX4-qM-A6C">
+                                <rect key="frame" x="144" y="257" width="119" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="XND-7v-Ogt"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="9vA-EN-81f">
+                                <rect key="frame" x="263" y="257" width="119" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="PQ5-Mf-c3u">
+                                <rect key="frame" x="26" y="363" width="119" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="LIf-Of-l69"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-u8-mfH">
+                                <rect key="frame" x="144" y="363" width="119" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="acI-Fk-nki">
+                                <rect key="frame" x="26" y="475" width="119" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="kWt-ec-S8V"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="ibS-j8-otS">
+                                <rect key="frame" x="144" y="475" width="119" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="C19-EX-LTA">
+                                <rect key="frame" x="263" y="475" width="119" height="128"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popeye1" translatesAutoresizingMaskIntoConstraints="NO" id="Gxm-s0-3eS">
+                                <rect key="frame" x="263" y="363" width="119" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HighScore: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDg-C5-PNq">
+                                <rect key="frame" x="75" y="728" width="259" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdt-pp-rOL">
+                                <rect key="frame" x="171" y="66" width="73" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score:0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJ9-IU-wYu">
+                                <rect key="frame" x="174" y="163" width="60" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="hfU-aW-2tP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hX4-qM-A6C" firstAttribute="top" secondItem="KJ9-IU-wYu" secondAttribute="bottom" constant="73" id="1U1-Sv-2NV"/>
+                            <constraint firstItem="hX4-qM-A6C" firstAttribute="top" secondItem="9vA-EN-81f" secondAttribute="top" id="3dH-ye-clv"/>
+                            <constraint firstItem="vra-rv-7Yf" firstAttribute="bottom" secondItem="hX4-qM-A6C" secondAttribute="bottom" id="68r-l0-n4v"/>
+                            <constraint firstItem="vra-rv-7Yf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="6Nq-zm-IEw"/>
+                            <constraint firstItem="9vA-EN-81f" firstAttribute="leading" secondItem="hX4-qM-A6C" secondAttribute="trailing" id="7vo-rW-fTQ"/>
+                            <constraint firstItem="hbF-u8-mfH" firstAttribute="trailing" secondItem="ibS-j8-otS" secondAttribute="trailing" id="Cgi-Nx-RZv"/>
+                            <constraint firstItem="acI-Fk-nki" firstAttribute="top" secondItem="ibS-j8-otS" secondAttribute="top" id="EDY-hl-Saj"/>
+                            <constraint firstItem="Gxm-s0-3eS" firstAttribute="leading" secondItem="C19-EX-LTA" secondAttribute="leading" id="FOL-a4-mfH"/>
+                            <constraint firstItem="vra-rv-7Yf" firstAttribute="leading" secondItem="PQ5-Mf-c3u" secondAttribute="leading" id="GNj-7z-swx"/>
+                            <constraint firstItem="vra-rv-7Yf" firstAttribute="trailing" secondItem="PQ5-Mf-c3u" secondAttribute="trailing" id="Jem-bT-ggA"/>
+                            <constraint firstItem="hX4-qM-A6C" firstAttribute="trailing" secondItem="hbF-u8-mfH" secondAttribute="trailing" id="LBS-Ef-G1O"/>
+                            <constraint firstItem="vra-rv-7Yf" firstAttribute="top" secondItem="hX4-qM-A6C" secondAttribute="top" id="Mbc-7A-PXj"/>
+                            <constraint firstItem="KJ9-IU-wYu" firstAttribute="centerX" secondItem="UDg-C5-PNq" secondAttribute="centerX" id="OvA-TS-CpJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9vA-EN-81f" secondAttribute="trailing" constant="32" id="OxE-mb-p4E"/>
+                            <constraint firstItem="hbF-u8-mfH" firstAttribute="leading" secondItem="ibS-j8-otS" secondAttribute="leading" id="QZe-dc-Ahx"/>
+                            <constraint firstItem="9vA-EN-81f" firstAttribute="trailing" secondItem="Gxm-s0-3eS" secondAttribute="trailing" id="RyY-Ia-Icq"/>
+                            <constraint firstItem="hbF-u8-mfH" firstAttribute="top" secondItem="Gxm-s0-3eS" secondAttribute="top" id="WFj-W2-rpW"/>
+                            <constraint firstItem="KJ9-IU-wYu" firstAttribute="centerX" secondItem="hX4-qM-A6C" secondAttribute="centerX" id="XEO-cP-1vt"/>
+                            <constraint firstItem="PQ5-Mf-c3u" firstAttribute="trailing" secondItem="acI-Fk-nki" secondAttribute="trailing" id="YC5-uu-Fxd"/>
+                            <constraint firstItem="PQ5-Mf-c3u" firstAttribute="bottom" secondItem="hbF-u8-mfH" secondAttribute="bottom" id="Yqr-8X-PQm"/>
+                            <constraint firstItem="Fdt-pp-rOL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="bG0-Pq-SyU"/>
+                            <constraint firstItem="Fdt-pp-rOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="cTx-XA-YjA"/>
+                            <constraint firstItem="PQ5-Mf-c3u" firstAttribute="leading" secondItem="acI-Fk-nki" secondAttribute="leading" id="dUM-2h-EYL"/>
+                            <constraint firstItem="ibS-j8-otS" firstAttribute="bottom" secondItem="C19-EX-LTA" secondAttribute="bottom" id="dUr-it-RT6"/>
+                            <constraint firstItem="PQ5-Mf-c3u" firstAttribute="top" secondItem="hbF-u8-mfH" secondAttribute="top" id="dV5-Wd-8AZ"/>
+                            <constraint firstItem="hbF-u8-mfH" firstAttribute="bottom" secondItem="Gxm-s0-3eS" secondAttribute="bottom" id="hxW-F1-Ur6"/>
+                            <constraint firstItem="acI-Fk-nki" firstAttribute="bottom" secondItem="ibS-j8-otS" secondAttribute="bottom" id="iC3-is-Of0"/>
+                            <constraint firstItem="KJ9-IU-wYu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="jCq-TJ-2U3"/>
+                            <constraint firstItem="Gxm-s0-3eS" firstAttribute="trailing" secondItem="C19-EX-LTA" secondAttribute="trailing" id="jqq-I7-GIg"/>
+                            <constraint firstItem="PQ5-Mf-c3u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="319" id="lmh-0Z-jn7"/>
+                            <constraint firstItem="KJ9-IU-wYu" firstAttribute="top" secondItem="Fdt-pp-rOL" secondAttribute="bottom" constant="25" id="lsx-ZG-tN7"/>
+                            <constraint firstItem="ibS-j8-otS" firstAttribute="top" secondItem="C19-EX-LTA" secondAttribute="top" id="luE-ts-Zsr"/>
+                            <constraint firstItem="9vA-EN-81f" firstAttribute="leading" secondItem="Gxm-s0-3eS" secondAttribute="leading" id="mIL-uc-9lc"/>
+                            <constraint firstItem="acI-Fk-nki" firstAttribute="top" secondItem="vra-rv-7Yf" secondAttribute="bottom" constant="90" id="mip-3f-zRn"/>
+                            <constraint firstItem="hX4-qM-A6C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="144" id="n9U-Zy-qzf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UDg-C5-PNq" secondAttribute="bottom" constant="113" id="o8F-Q2-ThN"/>
+                            <constraint firstItem="UDg-C5-PNq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="pkt-v6-eeU"/>
+                            <constraint firstItem="vra-rv-7Yf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="213" id="q8X-ZG-hkN"/>
+                            <constraint firstItem="Fdt-pp-rOL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uBP-nR-KwC"/>
+                            <constraint firstItem="hX4-qM-A6C" firstAttribute="bottom" secondItem="9vA-EN-81f" secondAttribute="bottom" id="v9X-XV-CvO"/>
+                            <constraint firstItem="hX4-qM-A6C" firstAttribute="leading" secondItem="hbF-u8-mfH" secondAttribute="leading" id="x5b-mc-sjX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="UDg-C5-PNq" id="wyg-su-FeG"/>
+                        <outlet property="popeye1" destination="vra-rv-7Yf" id="en5-Mb-7nH"/>
+                        <outlet property="popeye2" destination="hX4-qM-A6C" id="L6N-6p-IcZ"/>
+                        <outlet property="popeye3" destination="9vA-EN-81f" id="Kaa-L3-jfr"/>
+                        <outlet property="popeye4" destination="PQ5-Mf-c3u" id="SMl-AX-aX1"/>
+                        <outlet property="popeye5" destination="hbF-u8-mfH" id="CoJ-ft-rjH"/>
+                        <outlet property="popeye6" destination="Gxm-s0-3eS" id="pie-qM-reP"/>
+                        <outlet property="popeye7" destination="acI-Fk-nki" id="90z-ZJ-0kP"/>
+                        <outlet property="popeye8" destination="ibS-j8-otS" id="wta-tA-JMd"/>
+                        <outlet property="popeye9" destination="C19-EX-LTA" id="KRp-KO-RNx"/>
+                        <outlet property="scoreLabel" destination="KJ9-IU-wYu" id="PIJ-r8-mEO"/>
+                        <outlet property="timeLabel" destination="Fdt-pp-rOL" id="n5k-BC-Xah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="popeye1" width="860" height="630"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
